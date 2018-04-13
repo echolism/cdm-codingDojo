@@ -42,7 +42,7 @@ hs_err_pid*
 .project
 .settings/
 
-*/.idea
+*.idea
 *.iml
 target/
 build/
