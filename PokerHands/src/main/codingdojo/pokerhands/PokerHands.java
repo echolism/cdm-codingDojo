@@ -12,6 +12,12 @@ public class PokerHands {
     }
 
     private Player getWinner(Player p1, Player p2) {
+        if (p1.hasPair() && !p2.hasPair()) {
+            return p1;
+        }
+        if (p2.hasPair()) {
+            return p2;
+        }
         if (p1.getHighestPoker().getFaceValue() > p2.getHighestPoker().getFaceValue()) {
             return p1;
         } else if (p1.getHighestPoker().getFaceValue() < p2.getHighestPoker().getFaceValue()) {

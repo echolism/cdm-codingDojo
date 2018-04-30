@@ -3,7 +3,7 @@ package codingdojo.pokerhands;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Poker {
+public class Poker implements Comparable<Poker>{
     private Integer faceValue;
 
     public Poker(String cardFace) {
@@ -12,6 +12,11 @@ public class Poker {
 
     public Integer getFaceValue() {
         return faceValue;
+    }
+
+    @Override
+    public int compareTo(Poker poker2) {
+        return this.faceValue - poker2.faceValue;
     }
 
     private Integer convertFaceValue(String cardFaceValueString) {

@@ -1,10 +1,8 @@
 package codingdojo.pokerhands;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class Player {
@@ -17,11 +15,10 @@ public class Player {
     }
 
     public void collectPokers(String... pokerValues) {
-        this.pokers.addAll(Stream.of(pokerValues).map(Poker::new).collect(Collectors.toList()));
-    }
-
-    public List<Poker> getPokers() {
-        return pokers;
+        this.pokers.addAll(Stream.of(pokerValues)
+                .map(Poker::new)
+                .sorted(Comparator.reverseOrder())
+                .collect(Collectors.toList()));
     }
 
     public String getName() {
@@ -29,8 +26,19 @@ public class Player {
     }
 
     public Poker getHighestPoker() {
-        return pokers.stream()
-                .max(Comparator.comparing(Poker::getFaceValue))
-                .orElse(null);
+        return pokers.get(0);
+    }
+
+    public boolean hasPair() {
+        return getPair() != null;
+    }
+
+    private Poker getPair() {
+        for (int i = 0; i < 4; i++) {
+            if (pokers.get(i).compareTo(pokers.get(i + 1)) == 0) {
+                return pokers.get(i);
+            }
+        }
+        return null;
     }
 }
