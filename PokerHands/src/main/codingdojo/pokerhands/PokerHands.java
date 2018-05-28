@@ -48,9 +48,9 @@ public class PokerHands {
 
     private Player getWinnerInSinglePoker(Player p1, Player p2) {
         for (int i = 0; i < 5; i++) {
-            if (p1.getHighestPoker(i).compareTo(p2.getHighestPoker(i)) > 1) {
+            if (p1.getHighestPoker(i).compareTo(p2.getHighestPoker(i)) > 0) {
                 return p1;
-            } else if (p1.getHighestPoker(i).compareTo(p2.getHighestPoker(i)) < 1) {
+            } else if (p2.getHighestPoker(i).compareTo(p1.getHighestPoker(i)) > 0) {
                 return p2;
             }
         }
