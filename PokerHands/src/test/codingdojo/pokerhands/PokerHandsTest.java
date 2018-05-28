@@ -345,21 +345,118 @@ public class PokerHandsTest {
 
         assertEquals(PokerHands.PLAYER_1_WIN_MSG, result);
     }
-//    /**
-//     * Given P1 has 4D 4H 6D 7D 9S and P2 has 2S 3S 4S AS AD
-//     * When I get result
-//     * Then I should get "Player 1 wins."
-//     */
-//    @Test
-//    public void testGivenP1Has4D4H6D7D9SAndP2Has2S3S4SASADWhenGetResultThenP2Wins() {
-//        Player player1 = new Player("Player 1");
-//        player1.collectPokers("4D", "4H", "6D", "7D", "9S");
-//        Player player2 = new Player("Player 2");
-//        player2.collectPokers("2S", "3S", "4S", "AS", "AD");
-//
-//        String result = new PokerHands().determine(player1, player2);
-//
-//        assertEquals(PokerHands.PLAYER_1_WIN_MSG, result);
-//    }
+
+    /**
+     * Given P1 has 4D 4H 6D 7D 9S and P2 has 4S 3S 4C 7S 3D
+     * When I get result
+     * Then I should get "Player 2 wins."
+     */
+    @Test
+    public void testGivenP1Has4D4H6D7D9SAndP2Has4S3S4C7S3DWhenGetResultThenP2Wins() {
+        Player player1 = new Player("Player 1");
+        player1.collectPokers("4D", "4H", "6D", "7D", "9S");
+        Player player2 = new Player("Player 2");
+        player2.collectPokers("4S", "3S", "4C", "7S", "3D");
+
+
+        String result = new PokerHands().determine(player1, player2);
+
+        assertEquals(PokerHands.PLAYER_2_WIN_MSG, result);
+    }
+
+    /**
+     * Given P1 has 4D 4H 8S 8D 9S and P2 has 4S 4C 7C 7S 3D
+     * When I get result
+     * Then I should get "Player 1 wins."
+     */
+    @Test
+    public void testGivenP1Has4D4H8S8D9SAndP2Has4S4C7C7S3DWhenGetResultThenP1Wins() {
+        Player player1 = new Player("Player 1");
+        player1.collectPokers("4D", "4H", "8S", "8D", "9S");
+        Player player2 = new Player("Player 2");
+        player2.collectPokers("4S", "4C", "7C", "7S", "3D");
+
+
+        String result = new PokerHands().determine(player1, player2);
+
+        assertEquals(PokerHands.PLAYER_1_WIN_MSG, result);
+    }
+
+    /**
+     * Given P1 has 4D 4H 6S 6D 9S and P2 has 4S 4C 7C 7S 3D
+     * When I get result
+     * Then I should get "Player 2 wins."
+     */
+    @Test
+    public void testGivenP1Has44669AndP2Has44773WhenGetResultThenP2Wins() {
+        Player player1 = new Player("Player 1");
+        player1.collectPokers("4D", "4H", "6S", "6D", "9S");
+        Player player2 = new Player("Player 2");
+        player2.collectPokers("4S", "4C", "7C", "7S", "3D");
+
+
+        String result = new PokerHands().determine(player1, player2);
+
+        assertEquals(PokerHands.PLAYER_2_WIN_MSG, result);
+    }
+
+
+    /**
+     * Given P1 has 3D 3H 7H 7D 9S and P2 has 4S 4C 7C 7S 2D
+     * When I get result
+     * Then I should get "Player 2 wins."
+     */
+    @Test
+    public void testGivenP1Has33779AndP2Has44772WhenGetResultThenP2Wins() {
+        Player player1 = new Player("Player 1");
+        player1.collectPokers("3D", "3H", "7H", "7D", "9S");
+        Player player2 = new Player("Player 2");
+        player2.collectPokers("4S", "4C", "7C", "7S", "2D");
+
+
+        String result = new PokerHands().determine(player1, player2);
+
+        assertEquals(PokerHands.PLAYER_2_WIN_MSG, result);
+    }
+
+    /**
+     * Given P1 has 3D 3H 7H 7D 9S and P2 has 3S 3C 7C 7S 9D
+     * When I get result
+     * Then I should get "Draw Game."
+     */
+    @Test
+    public void testGivenP1Has33779AndP2Has33779WhenGetResultThenDrawGame() {
+        Player player1 = new Player("Player 1");
+        player1.collectPokers("3D", "3H", "7H", "7D", "9S");
+        Player player2 = new Player("Player 2");
+        player2.collectPokers("3S", "3C", "7C", "7S", "9D");
+
+
+        String result = new PokerHands().determine(player1, player2);
+
+
+        assertEquals(PokerHands.DRAW_GAME_MSG, result);
+    }
+
+
+
+    /**
+     * Given P1 has 3D 3H 7H 7D 8S and P2 has 3S 3C 7C 7S 9D
+     * When I get result
+     * Then I should get "Player 2 wins."
+     */
+    @Test
+    public void testGivenP1Has33778AndP2Has33779WhenGetResultThenP2Wins() {
+        Player player1 = new Player("Player 1");
+        player1.collectPokers("3D", "3H", "7H", "7D", "8S");
+        Player player2 = new Player("Player 2");
+        player2.collectPokers("3S", "3C", "7C", "7S", "9D");
+
+
+        String result = new PokerHands().determine(player1, player2);
+
+
+        assertEquals(PokerHands.PLAYER_2_WIN_MSG, result);
+    }
 
 }
