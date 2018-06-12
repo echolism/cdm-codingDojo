@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6dda590f-3dac-42b0-81a0-2af0f843847e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/PokerHands/src/main/codingdojo/pokerhands/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StringCalculator/src/main/codingdojo/stringcalculator/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/src/main/codingdojo/stringcalculator/StringCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StringCalculator/src/test/codingdojo/stringcalculator/StringCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/StringCalculator/src/test/codingdojo/stringcalculator/StringCalculatorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,25 +15,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/cdm_codingDojo$FizzBuzzTest.ic" NAME="FizzBuzzTest Coverage Results" MODIFIED="1528685911622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>codingdojo.fizzbuzz.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="StringCalculatorTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StringCalculatorTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/StringCalculator/src/test/codingdojo/stringcalculator/StringCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PokerHandsTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PokerHands/src/test/codingdojo/pokerhands/PokerHandsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="137" selection-end-line="160" />
+            <state relative-caret-position="34">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,8 +37,8 @@
       <file leaf-file-name="StringCalculator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StringCalculator/src/main/codingdojo/stringcalculator/StringCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+            <state relative-caret-position="340">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -63,76 +58,37 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/StringCalculator/src/test/codingdojo/stringcalculator/StringCalculatorTest.java" />
-        <option value="$PROJECT_DIR$/StringCalculator/src/main/codingdojo/stringcalculator/StringCalculator.java" />
         <option value="$PROJECT_DIR$/PokerHands/src/test/codingdojo/pokerhands/PokerHands.java" />
         <option value="$PROJECT_DIR$/PokerHands/src/main/codingdojo/pokerhands/Poker.java" />
         <option value="$PROJECT_DIR$/PokerHands/src/test/codingdojo/pokerhands/PokerHandsTest.java" />
         <option value="$PROJECT_DIR$/PokerHands/src/main/codingdojo/pokerhands/PokerHands.java" />
         <option value="$PROJECT_DIR$/PokerHands/src/main/codingdojo/pokerhands/Player.java" />
+        <option value="$PROJECT_DIR$/FizzBuzz/src/main/codingdojo/Test.java" />
+        <option value="$PROJECT_DIR$/FizzBuzz/src/test/codingdojo/fizzbuzz/FizzBuzzTest.java" />
+        <option value="$PROJECT_DIR$/FizzBuzz/src/main/codingdojo/fizzbuzz/FizzBuzz.java" />
+        <option value="$PROJECT_DIR$/StringCalculator/src/main/codingdojo/stringcalculator/StringCalculator.java" />
+        <option value="$PROJECT_DIR$/StringCalculator/src/test/codingdojo/stringcalculator/StringCalculatorTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-3" />
-    <option name="y" value="-5" />
     <option name="width" value="1932" />
-    <option name="height" value="1154" />
+    <option name="height" value="1092" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="cdm-codingDojo" type="b2602c69:ProjectViewProjectNode" />
               <item name="cdm-codingDojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cdm-codingDojo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cdm-codingDojo" type="462c0819:PsiDirectoryNode" />
-              <item name="PokerHands" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cdm-codingDojo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cdm-codingDojo" type="462c0819:PsiDirectoryNode" />
-              <item name="PokerHands" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cdm-codingDojo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cdm-codingDojo" type="462c0819:PsiDirectoryNode" />
-              <item name="PokerHands" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cdm-codingDojo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cdm-codingDojo" type="462c0819:PsiDirectoryNode" />
-              <item name="PokerHands" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="pokerhands" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cdm-codingDojo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cdm-codingDojo" type="462c0819:PsiDirectoryNode" />
-              <item name="PokerHands" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cdm-codingDojo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cdm-codingDojo" type="462c0819:PsiDirectoryNode" />
-              <item name="PokerHands" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="pokerhands" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cdm-codingDojo" type="b2602c69:ProjectViewProjectNode" />
@@ -182,13 +138,19 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SONARLINT_ANALYSIS_RESULTS_SCOPE" value="VCS changed files" />
     <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../codingDojo" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitRepository\cdm-codingDojo" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="codingdojo.fizzbuzz" />
       <recent name="codingdojo.pokerhands" />
     </key>
   </component>
@@ -204,9 +166,55 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PokerHandsTest">
+  <component name="RunManager" selected="JUnit.StringCalculatorTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FizzBuzz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codingdojo.fizzbuzz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="codingdojo.fizzbuzz" />
+      <option name="MAIN_CLASS_NAME" value="codingdojo.fizzbuzz.FizzBuzzTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="FizzBuzzTest.testGivenInput7WhenFizzBuzzThenCanGetWhizz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FizzBuzz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codingdojo.fizzbuzz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="codingdojo.fizzbuzz" />
+      <option name="MAIN_CLASS_NAME" value="codingdojo.fizzbuzz.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="testGivenInput7WhenFizzBuzzThenCanGetWhizz" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="PokerHandsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PokerHands" />
@@ -231,52 +239,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="PokerHandsTest.testGivenP1Has2S3S4S5S8DAndP2Has2D3D4D5D7SWhenGetResultThenP1Wins" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PokerHands" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="codingdojo.pokerhands.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="codingdojo.pokerhands" />
-      <option name="MAIN_CLASS_NAME" value="codingdojo.pokerhands.PokerHandsTest" />
-      <option name="METHOD_NAME" value="testGivenP1Has2S3S4S5S8DAndP2Has2D3D4D5D7SWhenGetResultThenP1Wins" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="PokerHandsTest.testGivenP1Has2S3S4S5SJDAndP2Has2D3D4D5D8SWhenGetResultThenP1Wins" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PokerHands" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="codingdojo.pokerhands.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="codingdojo.pokerhands" />
-      <option name="MAIN_CLASS_NAME" value="codingdojo.pokerhands.PokerHandsTest" />
-      <option name="METHOD_NAME" value="testGivenP1Has2S3S4S5SJDAndP2Has2D3D4D5D8SWhenGetResultThenP1Wins" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="StringCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StringCalculator" />
       <extension name="coverage">
@@ -291,6 +253,29 @@
       <option name="MAIN_CLASS_NAME" value="codingdojo.stringcalculator.StringCalculatorTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="StringCalculatorTest.testGivenDelimiterIsSemiColon1SemiColon2WhenAddThenGet3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StringCalculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codingdojo.stringcalculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="codingdojo.stringcalculator" />
+      <option name="MAIN_CLASS_NAME" value="codingdojo.stringcalculator.StringCalculatorTest" />
+      <option name="METHOD_NAME" value="testGivenDelimiterIsSemiColon1SemiColon2WhenAddThenGet3" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -339,17 +324,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.StringCalculatorTest" />
       <item itemvalue="JUnit.PokerHandsTest" />
-      <item itemvalue="JUnit.PokerHandsTest.testGivenP1Has2S3S4S5S8DAndP2Has2D3D4D5D7SWhenGetResultThenP1Wins" />
-      <item itemvalue="JUnit.PokerHandsTest.testGivenP1Has2S3S4S5SJDAndP2Has2D3D4D5D8SWhenGetResultThenP1Wins" />
+      <item itemvalue="JUnit.FizzBuzzTest" />
+      <item itemvalue="JUnit.FizzBuzzTest.testGivenInput7WhenFizzBuzzThenCanGetWhizz" />
+      <item itemvalue="JUnit.StringCalculatorTest" />
+      <item itemvalue="JUnit.StringCalculatorTest.testGivenDelimiterIsSemiColon1SemiColon2WhenAddThenGet3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PokerHandsTest" />
-        <item itemvalue="JUnit.PokerHandsTest.testGivenP1Has2S3S4S5SJDAndP2Has2D3D4D5D8SWhenGetResultThenP1Wins" />
-        <item itemvalue="JUnit.PokerHandsTest.testGivenP1Has2S3S4S5S8DAndP2Has2D3D4D5D7SWhenGetResultThenP1Wins" />
         <item itemvalue="JUnit.StringCalculatorTest" />
+        <item itemvalue="JUnit.StringCalculatorTest.testGivenDelimiterIsSemiColon1SemiColon2WhenAddThenGet3" />
+        <item itemvalue="JUnit.FizzBuzzTest" />
+        <item itemvalue="JUnit.FizzBuzzTest.testGivenInput7WhenFizzBuzzThenCanGetWhizz" />
+        <item itemvalue="JUnit.PokerHandsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -367,83 +354,88 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PokerHandsTest - 2018.04.13 at 11h 21m 16s.xml">
-      <configuration name="PokerHandsTest" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTest - 2018.06.12 at 10h 33m 59s.xml">
+      <configuration name="StringCalculatorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PokerHandsTest - 2018.04.13 at 11h 22m 20s.xml">
-      <configuration name="PokerHandsTest" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTest - 2018.06.12 at 10h 35m 10s.xml">
+      <configuration name="StringCalculatorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PokerHandsTest - 2018.04.13 at 11h 23m 24s.xml">
-      <configuration name="PokerHandsTest" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTest - 2018.06.12 at 10h 35m 40s.xml">
+      <configuration name="StringCalculatorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PokerHandsTest_testGivenP1Has2S3S4S5SJDAndP2Has2D3D4D5D8SWhenGetResultThenP1Wins - 2018.04.13 at 11h 23m 58s.xml">
-      <configuration name="PokerHandsTest.testGivenP1Has2S3S4S5SJDAndP2Has2D3D4D5D8SWhenGetResultThenP1Wins" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTest_testGivenDelimiterIsSemiColon1SemiColon2WhenAddThenGet3 - 2018.06.12 at 10h 36m 05s.xml">
+      <configuration name="StringCalculatorTest.testGivenDelimiterIsSemiColon1SemiColon2WhenAddThenGet3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PokerHandsTest - 2018.04.13 at 11h 24m 01s.xml">
-      <configuration name="PokerHandsTest" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTest_testGivenDelimiterIsSemiColon1SemiColon2WhenAddThenGet3 - 2018.06.12 at 10h 37m 19s.xml">
+      <configuration name="StringCalculatorTest.testGivenDelimiterIsSemiColon1SemiColon2WhenAddThenGet3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PokerHandsTest - 2018.04.13 at 11h 25m 07s.xml">
-      <configuration name="PokerHandsTest" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTest_testGivenDelimiterIsSemiColon1SemiColon2WhenAddThenGet3 - 2018.06.12 at 10h 38m 02s.xml">
+      <configuration name="StringCalculatorTest.testGivenDelimiterIsSemiColon1SemiColon2WhenAddThenGet3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PokerHandsTest - 2018.04.13 at 11h 27m 14s.xml">
-      <configuration name="PokerHandsTest" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTest_testGivenDelimiterIsSemiColon1SemiColon2WhenAddThenGet3 - 2018.06.12 at 10h 38m 07s.xml">
+      <configuration name="StringCalculatorTest.testGivenDelimiterIsSemiColon1SemiColon2WhenAddThenGet3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PokerHandsTest - 2018.04.13 at 11h 29m 33s.xml">
-      <configuration name="PokerHandsTest" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTest_testGivenDelimiterIsSemiColon1SemiColon2WhenAddThenGet3 - 2018.06.12 at 10h 38m 30s.xml">
+      <configuration name="StringCalculatorTest.testGivenDelimiterIsSemiColon1SemiColon2WhenAddThenGet3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PokerHandsTest - 2018.04.13 at 11h 30m 22s.xml">
-      <configuration name="PokerHandsTest" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTest_testGivenDelimiterIsSemiColon1SemiColon2WhenAddThenGet3 - 2018.06.12 at 10h 38m 34s.xml">
+      <configuration name="StringCalculatorTest.testGivenDelimiterIsSemiColon1SemiColon2WhenAddThenGet3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PokerHandsTest - 2018.04.13 at 11h 40m 27s.xml">
-      <configuration name="PokerHandsTest" configurationId="JUnit" />
+    <history-entry file="StringCalculatorTest - 2018.06.12 at 10h 38m 56s.xml">
+      <configuration name="StringCalculatorTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="-5" width="1932" height="1154" extended-state="0" />
+    <frame x="0" y="0" width="1932" height="1092" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="11" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32875457" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32884616" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32967034" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32560387" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25052193" />
-      <window_info anchor="bottom" id="SonarLint" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="SonarLint" order="7" weight="0.32967034" />
+      <window_info anchor="bottom" id="SonarQube" order="11" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3992674" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.3296875" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32916668" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="SonarLint" order="7" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.3296875" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32600734" />
+      <window_info anchor="bottom" id="SonarQube" order="11" />
+      <window_info anchor="bottom" id="SonarLint" order="7" weight="0.32967034" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3992674" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32967034" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="11" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32875457" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info id="Favorites" order="3" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -455,17 +447,118 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/PokerHands/src/main/codingdojo/pokerhands/Poker.java</url>
-          <line>16</line>
-          <properties class="codingdojo.pokerhands.Poker" method="convertFaceValue">
+          <line>14</line>
+          <properties class="codingdojo.pokerhands.Poker">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/StringCalculator/src/test/codingdojo/stringcalculator/StringCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FizzBuzz/src/main/codingdojo/fizzbuzz/FizzBuzz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FizzBuzz/src/test/codingdojo/fizzbuzz/FizzBuzzTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5115">
+          <caret line="155" column="5" selection-start-line="155" selection-start-column="5" selection-end-line="155" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PokerHands/src/test/codingdojo/pokerhands/PokerHandsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3762">
+          <caret line="114" column="9" selection-start-line="114" selection-start-column="9" selection-end-line="114" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StringCalculator/src/main/codingdojo/stringcalculator/StringCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StringCalculator/src/test/codingdojo/stringcalculator/StringCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StringCalculator/src/main/codingdojo/stringcalculator/StringCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PokerHands/src/test/codingdojo/pokerhands/PokerHandsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2312">
+          <caret line="137" selection-end-line="159" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StringCalculator/src/test/codingdojo/stringcalculator/StringCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StringCalculator/src/main/codingdojo/stringcalculator/StringCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PokerHands/src/test/codingdojo/pokerhands/PokerHandsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2312">
+          <caret line="137" selection-end-line="160" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/StringCalculator/src/test/codingdojo/stringcalculator/StringCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -508,11 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="562">
           <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -523,27 +611,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StringCalculator/src/main/codingdojo/stringcalculator/StringCalculator.java">
+    <entry file="file://$PROJECT_DIR$/FizzBuzz/src/main/codingdojo/Test.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/function/Function.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        <state relative-caret-position="241">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StringCalculator/src/test/codingdojo/stringcalculator/StringCalculatorTest.java">
+    <entry file="file://$PROJECT_DIR$/PokerHands/src/test/codingdojo/pokerhands/PokerHandsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="1921">
+          <caret line="114" column="9" selection-start-line="114" selection-start-column="9" selection-end-line="114" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PokerHands/src/test/codingdojo/pokerhands/PokerHandsTest.java">
+    <entry file="file://$PROJECT_DIR$/FizzBuzz/src/test/codingdojo/fizzbuzz/FizzBuzzTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="137" selection-end-line="160" />
+        <state relative-caret-position="2635">
+          <caret line="155" column="5" selection-start-line="155" selection-start-column="5" selection-end-line="155" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FizzBuzz/src/main/codingdojo/fizzbuzz/FizzBuzz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StringCalculator/src/main/codingdojo/stringcalculator/StringCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StringCalculator/src/test/codingdojo/stringcalculator/StringCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -602,7 +718,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>StringCalculator</last-edited>
+          <last-edited>FizzBuzz</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
