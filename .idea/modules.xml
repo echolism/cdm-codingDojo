@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/FizzBuzz/FizzBuzz.iml" filepath="$PROJECT_DIR$/FizzBuzz/FizzBuzz.iml" />
       <module fileurl="file://$PROJECT_DIR$/PokerHands/PokerHands.iml" filepath="$PROJECT_DIR$/PokerHands/PokerHands.iml" />
       <module fileurl="file://$PROJECT_DIR$/StringCalculator/StringCalculator.iml" filepath="$PROJECT_DIR$/StringCalculator/StringCalculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/cdm-codingDojo.iml" filepath="$PROJECT_DIR$/cdm-codingDojo.iml" />
