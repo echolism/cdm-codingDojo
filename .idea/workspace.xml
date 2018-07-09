@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6dda590f-3dac-42b0-81a0-2af0f843847e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/FizzBuzz/src/main/codingdojo/fizzbuzz/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FizzBuzz/src/test/codingdojo/fizzbuzz/FizzBuzzTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PokerHands/src/main/codingdojo/pokerhands/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/PokerHands/src/main/codingdojo/pokerhands/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PokerHands/src/test/codingdojo/pokerhands/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/PokerHands/src/test/codingdojo/pokerhands/PlayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PokerHands/src/test/codingdojo/pokerhands/PokerHandsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/PokerHands/src/test/codingdojo/pokerhands/PokerHandsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,36 +16,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StringCalculatorTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StringCalculator/src/test/codingdojo/stringcalculator/StringCalculatorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file leaf-file-name="PokerHandsTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PokerHands/src/test/codingdojo/pokerhands/PokerHandsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="127" column="26" selection-start-line="127" selection-start-column="26" selection-end-line="127" selection-end-column="26" />
+            <state relative-caret-position="330">
+              <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringCalculator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StringCalculator/src/main/codingdojo/stringcalculator/StringCalculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -60,6 +38,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Runner</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -70,31 +53,110 @@
         <option value="$PROJECT_DIR$/StringCalculator/src/main/codingdojo/stringcalculator/StringCalculator.java" />
         <option value="$PROJECT_DIR$/PokerHands/src/test/codingdojo/pokerhands/PokerHands.java" />
         <option value="$PROJECT_DIR$/PokerHands/src/main/codingdojo/pokerhands/Poker.java" />
-        <option value="$PROJECT_DIR$/PokerHands/src/test/codingdojo/pokerhands/PokerHandsTest.java" />
         <option value="$PROJECT_DIR$/PokerHands/src/main/codingdojo/pokerhands/PokerHands.java" />
+        <option value="$PROJECT_DIR$/PokerHands/src/test/codingdojo/pokerhands/PokerTestSuite.java" />
         <option value="$PROJECT_DIR$/PokerHands/src/main/codingdojo/pokerhands/Player.java" />
+        <option value="$PROJECT_DIR$/PokerHands/src/test/codingdojo/pokerhands/PlayerTest.java" />
+        <option value="$PROJECT_DIR$/PokerHands/src/test/codingdojo/pokerhands/PokerHandsTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-3" />
-    <option name="y" value="-5" />
-    <option name="width" value="1932" />
-    <option name="height" value="1092" />
+    <option name="width" value="1400" />
+    <option name="height" value="988" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="cdm-codingDojo" type="b2602c69:ProjectViewProjectNode" />
               <item name="cdm-codingDojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cdm-codingDojo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cdm-codingDojo" type="462c0819:PsiDirectoryNode" />
+              <item name="PokerHands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cdm-codingDojo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cdm-codingDojo" type="462c0819:PsiDirectoryNode" />
+              <item name="PokerHands" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cdm-codingDojo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cdm-codingDojo" type="462c0819:PsiDirectoryNode" />
+              <item name="PokerHands" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cdm-codingDojo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cdm-codingDojo" type="462c0819:PsiDirectoryNode" />
+              <item name="PokerHands" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="pokerhands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cdm-codingDojo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cdm-codingDojo" type="462c0819:PsiDirectoryNode" />
+              <item name="PokerHands" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cdm-codingDojo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cdm-codingDojo" type="462c0819:PsiDirectoryNode" />
+              <item name="PokerHands" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="pokerhands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cdm-codingDojo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="cdm-codingDojo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="JUnit4" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="cdm-codingDojo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="JUnit4" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cdm-codingDojo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="JUnit4" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cdm-codingDojo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="JUnit4" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="runner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cdm-codingDojo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="JUnit4" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="runners" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -103,10 +165,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SONARLINT_ANALYSIS_RESULTS_SCOPE" value="VCS changed files" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -152,7 +216,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="PokerHandsTest.testGivenP1Has2S3S4S5S8DAndP2Has2D3D4D5D7SWhenGetResultThenP1Wins" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PokerHandsTest.assertPokerHands" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PokerHands" />
       <extension name="coverage">
         <pattern>
@@ -164,7 +228,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="codingdojo.pokerhands" />
       <option name="MAIN_CLASS_NAME" value="codingdojo.pokerhands.PokerHandsTest" />
-      <option name="METHOD_NAME" value="testGivenP1Has2S3S4S5S8DAndP2Has2D3D4D5D7SWhenGetResultThenP1Wins" />
+      <option name="METHOD_NAME" value="assertPokerHands" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -198,18 +262,18 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="StringCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StringCalculator" />
+    <configuration name="PokerTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PokerHands" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="codingdojo.stringcalculator.*" />
+          <option name="PATTERN" value="codingdojo.pokerhands.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="codingdojo.stringcalculator" />
-      <option name="MAIN_CLASS_NAME" value="codingdojo.stringcalculator.StringCalculatorTest" />
+      <option name="PACKAGE_NAME" value="codingdojo.pokerhands" />
+      <option name="MAIN_CLASS_NAME" value="codingdojo.pokerhands.PokerTestSuite" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -228,6 +292,29 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="codingdojo.pokerhands in PokerHands" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PokerHands" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codingdojo.pokerhands.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="codingdojo.pokerhands" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -260,17 +347,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.StringCalculatorTest" />
       <item itemvalue="JUnit.PokerHandsTest" />
-      <item itemvalue="JUnit.PokerHandsTest.testGivenP1Has2S3S4S5S8DAndP2Has2D3D4D5D7SWhenGetResultThenP1Wins" />
       <item itemvalue="JUnit.PokerHandsTest.testGivenP1Has2S3S4S5SJDAndP2Has2D3D4D5D8SWhenGetResultThenP1Wins" />
+      <item itemvalue="JUnit.codingdojo.pokerhands in PokerHands" />
+      <item itemvalue="JUnit.PokerTestSuite" />
+      <item itemvalue="JUnit.PokerHandsTest.assertPokerHands" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.PokerHandsTest" />
+        <item itemvalue="JUnit.PokerHandsTest.assertPokerHands" />
+        <item itemvalue="JUnit.PokerTestSuite" />
+        <item itemvalue="JUnit.codingdojo.pokerhands in PokerHands" />
         <item itemvalue="JUnit.PokerHandsTest.testGivenP1Has2S3S4S5SJDAndP2Has2D3D4D5D8SWhenGetResultThenP1Wins" />
-        <item itemvalue="JUnit.PokerHandsTest.testGivenP1Has2S3S4S5S8DAndP2Has2D3D4D5D7SWhenGetResultThenP1Wins" />
-        <item itemvalue="JUnit.StringCalculatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -288,83 +377,89 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PokerHandsTest - 2018.04.13 at 11h 21m 16s.xml">
+    <history-entry file="PokerHandsTest_assertPokerHands - 2018.07.09 at 11h 29m 50s.xml">
+      <configuration name="PokerHandsTest.assertPokerHands" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerHandsTest_assertPokerHands - 2018.07.09 at 11h 30m 39s.xml">
+      <configuration name="PokerHandsTest.assertPokerHands" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PokerHandsTest - 2018.07.09 at 11h 30m 50s.xml">
       <configuration name="PokerHandsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PokerHandsTest - 2018.04.13 at 11h 22m 20s.xml">
+    <history-entry file="PokerHandsTest - 2018.07.09 at 11h 33m 18s.xml">
       <configuration name="PokerHandsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PokerHandsTest - 2018.04.13 at 11h 23m 24s.xml">
+    <history-entry file="PokerHandsTest - 2018.07.09 at 11h 33m 34s.xml">
       <configuration name="PokerHandsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PokerHandsTest_testGivenP1Has2S3S4S5SJDAndP2Has2D3D4D5D8SWhenGetResultThenP1Wins - 2018.04.13 at 11h 23m 58s.xml">
-      <configuration name="PokerHandsTest.testGivenP1Has2S3S4S5SJDAndP2Has2D3D4D5D8SWhenGetResultThenP1Wins" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PokerHandsTest - 2018.04.13 at 11h 24m 01s.xml">
+    <history-entry file="PokerHandsTest - 2018.07.09 at 11h 33m 39s.xml">
       <configuration name="PokerHandsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PokerHandsTest - 2018.04.13 at 11h 25m 07s.xml">
+    <history-entry file="PokerHandsTest - 2018.07.09 at 11h 34m 23s.xml">
       <configuration name="PokerHandsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PokerHandsTest - 2018.04.13 at 11h 27m 14s.xml">
+    <history-entry file="PokerHandsTest - 2018.07.09 at 11h 35m 15s.xml">
       <configuration name="PokerHandsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PokerHandsTest - 2018.04.13 at 11h 29m 33s.xml">
+    <history-entry file="PokerHandsTest - 2018.07.09 at 11h 39m 57s.xml">
       <configuration name="PokerHandsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PokerHandsTest - 2018.04.13 at 11h 30m 22s.xml">
-      <configuration name="PokerHandsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PokerHandsTest - 2018.04.13 at 11h 40m 27s.xml">
+    <history-entry file="PokerHandsTest - 2018.07.09 at 11h 44m 58s.xml">
       <configuration name="PokerHandsTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="-5" width="1932" height="1092" extended-state="0" />
+    <frame x="0" y="0" width="1400" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32857144" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32884616" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36571428" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25052193" />
-      <window_info anchor="bottom" id="SonarLint" order="7" />
-      <window_info anchor="bottom" id="SonarQube" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31642857" />
+      <window_info anchor="bottom" id="SonarLint" order="9" weight="0.3295238" />
+      <window_info anchor="bottom" id="SonarQube" order="13" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="5" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32916668" />
-      <window_info anchor="bottom" id="SonarLint" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="0" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.36662748" />
+      <window_info anchor="bottom" id="SonarQube" order="13" />
+      <window_info anchor="bottom" id="SonarLint" order="8" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22537313" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Find" order="3" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32902467" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info id="Favorites" order="3" side_tool="true" />
     </layout-to-restore>
@@ -388,6 +483,33 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/StringCalculator/src/test/codingdojo/stringcalculator/StringCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StringCalculator/src/main/codingdojo/stringcalculator/StringCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PokerHands/src/test/codingdojo/pokerhands/PokerHandsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2142">
+          <caret line="127" column="26" selection-start-line="127" selection-start-column="26" selection-end-line="127" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/StringCalculator/src/test/codingdojo/stringcalculator/StringCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -439,49 +561,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PokerHands/src/main/codingdojo/pokerhands/Poker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PokerHands/src/main/codingdojo/pokerhands/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PokerHands/src/main/codingdojo/pokerhands/PokerHands.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/StringCalculator/src/main/codingdojo/stringcalculator/StringCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="264">
           <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/StringCalculator/src/test/codingdojo/stringcalculator/StringCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="891">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -489,10 +578,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PokerHands/src/main/codingdojo/pokerhands/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PokerHands/src/test/codingdojo/pokerhands/PlayerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PokerHands/src/main/codingdojo/pokerhands/Poker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PokerHands/src/main/codingdojo/pokerhands/PokerHands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PokerHands/src/test/codingdojo/pokerhands/PokerTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runners/Parameterized.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runner/Runner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runner/RunWith.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PokerHands/src/test/codingdojo/pokerhands/PokerHandsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="127" column="26" selection-start-line="127" selection-start-column="26" selection-end-line="127" selection-end-column="26" />
+        <state relative-caret-position="330">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
