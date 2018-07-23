@@ -1,13 +1,13 @@
-package codingdojo.pokerhands.winningchain;
+package codingdojo.pokerhands.winning;
 
 import codingdojo.pokerhands.Player;
 import codingdojo.pokerhands.Poker;
 import java.util.List;
 
-public class TwoPairWinningChain extends AbstractWinningChain {
+public class TwoPairDeterminater extends Determinater {
 
   @Override
-  protected Player getWinnerByWinningChain(final Player p1, final Player p2) {
+  protected Player getWinner(final Player p1, final Player p2) {
     if (p1.hasTwoPairs() && p2.hasTwoPairs()) {
       List<Poker> p1Pairs = p1.getAllPairs();
       List<Poker> p2Pairs = p2.getAllPairs();

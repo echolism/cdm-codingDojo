@@ -1,11 +1,11 @@
-package codingdojo.pokerhands.winningchain;
+package codingdojo.pokerhands.winning;
 
 import codingdojo.pokerhands.Player;
 
-public class PairWinningChain extends AbstractWinningChain {
+public class PairDeterminater extends Determinater {
 
   @Override
-  protected Player getWinnerByWinningChain(final Player p1, final Player p2) {
+  protected Player getWinner(final Player p1, final Player p2) {
     if (p1.hasPair() && p2.hasPair()) {
       if (p1.getPair().compareTo(p2.getPair()) > 0) {
         return p1;

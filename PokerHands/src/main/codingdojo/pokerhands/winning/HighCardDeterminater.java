@@ -1,11 +1,11 @@
-package codingdojo.pokerhands.winningchain;
+package codingdojo.pokerhands.winning;
 
 import codingdojo.pokerhands.Player;
 
-public class HighCardWinningChain extends AbstractWinningChain {
+public class HighCardDeterminater extends Determinater {
 
   @Override
-  protected Player getWinnerByWinningChain(final Player p1, final Player p2) {
+  protected Player getWinner(final Player p1, final Player p2) {
     for (int i = 0; i < 5; i++) {
       if (p1.getHighestPoker(i).compareTo(p2.getHighestPoker(i)) > 0) {
         return p1;
