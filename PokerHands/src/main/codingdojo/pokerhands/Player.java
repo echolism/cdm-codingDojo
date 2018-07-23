@@ -1,8 +1,9 @@
 package codingdojo.pokerhands;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class Player {
 
@@ -54,5 +55,18 @@ public class Player {
       }
     }
     return pairs;
+  }
+
+  public boolean hasThreeOfAKind() {
+    return pokers.get(2).compareTo(pokers.get(3)) == 0 && pokers.get(3).compareTo(pokers.get(4)) == 0;
+//    int sameCardCount = 0;
+//    for (int i = 0; i < 4; i++) {
+//      if (pokers.get(i).compareTo(pokers.get(i + 1)) == 0) {
+//        sameCardCount++;
+//      } else {
+//        sameCardCount = 0;
+//      }
+//    }
+//    return sameCardCount == 3;
   }
 }

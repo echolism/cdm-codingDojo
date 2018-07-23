@@ -80,7 +80,11 @@ public class PokerHandsTest {
         {Arrays.asList("3D", "3H", "7H", "7D", "9S"), Arrays.asList("3S", "3C", "7C", "7S", "9D"),
             PokerHands.DRAW_GAME_MSG},
         {Arrays.asList("3D", "3H", "7H", "7D", "8S"), Arrays.asList("3S", "3C", "7C", "7S", "9D"),
-            PokerHands.PLAYER_2_WIN_MSG}
+            PokerHands.PLAYER_2_WIN_MSG},
+
+        // Three Cards
+        {Arrays.asList("3D", "3H", "3C", "7D", "9H"), Arrays.asList("3S", "4S", "4H", "9S", "9D"),
+            PokerHands.PLAYER_1_WIN_MSG}
     });
   }
 

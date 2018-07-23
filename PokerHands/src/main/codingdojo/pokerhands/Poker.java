@@ -10,10 +10,6 @@ public class Poker implements Comparable<Poker>{
         faceValue = convertFaceValue(cardFace.substring(0,1));
     }
 
-    public Integer getFaceValue() {
-        return faceValue;
-    }
-
     @Override
     public int compareTo(Poker poker2) {
         return this.faceValue - poker2.faceValue;
