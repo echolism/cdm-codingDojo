@@ -5,10 +5,12 @@ import static org.junit.Assert.assertEquals;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
+import javax.naming.Name;
 import org.junit.Test;
+import org.junit.runner.Description;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import org.junit.runners.Parameterized.Parameters;
+import org.junit.runners.Parameterized.*;
 
 @RunWith(Parameterized.class)
 public class PokerHandsTest {
@@ -24,7 +26,7 @@ public class PokerHandsTest {
     this.expectedResult = expectedResult;
   }
 
-  @Parameters(name = "{index}: Given P1 has {0} and P2 has {1}, When I get result, Then I will be able to get {2}")
+  @Parameters (name = "{index}: Given P1 has {0} and P2 has {1}, When I get result, Then I will be able to get {2}")
   public static Collection<Object> data() {
     return Arrays.asList(new Object[][]{
         {Arrays.asList("2S", "3S", "4S", "5S", "7D"), Arrays.asList("2D", "3D", "4D", "5D", "7S"),

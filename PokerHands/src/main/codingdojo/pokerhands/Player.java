@@ -69,4 +69,20 @@ public class Player {
 //    }
 //    return sameCardCount == 3;
   }
+
+  public Poker getThreeOfAKind() {
+    if (hasThreeOfAKind()) {
+      return pokers.get(2);
+    }
+    return null;
+  }
+
+
+  public void clearPokers() {
+    pokers.clear();
+  }
+
+  public String toString(){
+    return name;
+  }
 }
