@@ -20,6 +20,7 @@ public class PairDeterminater extends Determinater {
     } else if (!p1.hasPair() && p2.hasPair()) {
       return p2;
     }
+    
     return null;
   }
 }
